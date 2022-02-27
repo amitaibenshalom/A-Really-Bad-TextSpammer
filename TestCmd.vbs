@@ -30,7 +30,7 @@ x.SendKeys"m"
 wscript.sleep 200
 x.SendKeys"b"
 wscript.sleep 1000
-for i = 1 to 17
+for i = 1 to 100
 x.Run"cmd.exe",9
 wscript.sleep 500
 x.SendKeys"LOL"
